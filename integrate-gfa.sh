@@ -1,0 +1,11 @@
+integrate phalu.TEP23.gfa
+integrate phalu.PaintedLady.gfa
+integrate phalu.DGD1962.gfa
+integrate phalu.PI_311196.gfa
+#integrate phalu.B2C.gfa
+integrate phalu.G25393.gfa
+integrate phalu.UC92.gfa
+integrate phalu.UC-Haskell.gfa
+integrate phalu.BAT93.gfa
+#integrate phalu.Hystyle.gfa
+integrate phalu.Flavert.gfa

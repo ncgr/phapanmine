@@ -1,2 +1,2 @@
-# phapanmine
-Phaseolus pangenome mine (not an LIS mine)
+# PhapanMine
+An InterMine for *Phaseolus* pan-genome work with UC-Davis.
