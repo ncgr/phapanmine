@@ -1,11 +1,9 @@
+yellowline
+
 integrate so
 integrate go
 integrate interpro
 integrate interpro-go
 integrate pfam-term
 integrate panther-term
-#integrate plant-ontology
-#integrate plant-trait-ontology
-#integrate common-bean-crop-ontology
 integrate legume.genefam.fam1.M65K
-integrate legume.genefam.fam1.M65K.trees_ML_rooted

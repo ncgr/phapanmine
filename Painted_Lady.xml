@@ -1,0 +1,194 @@
+<project type="bio">
+  <property name="target.model" value="genomic"/>
+  <property name="common.os.prefix" value="common"/>
+  <property name="intermine.properties.file" value="phapanmine.properties"/>
+  <property name="default.intermine.properties.file" location="../default.intermine.integrate.properties"/>
+  <sources>
+
+    <!-- /falafel/gepts_lab/legumeinfo/Phaseolus/coccineus/genomes/Painted_Lady.gnm1/phaco.Painted_Lady.gnm1.genome_main.fna -->
+    <source name="phaco.Painted_Lady.gnm1.genome_main.fna" type="fasta">
+      <property name="fasta.taxonId" value="3886"/>
+      <property name="fasta.strainIdentifier" value="Painted_Lady"/>
+      <property name="fasta.assemblyVersion" value="gnm1"/>
+      <property name="fasta.dataSetTitle" value="phaco.Painted_Lady.gnm1.genome_main.fna"/>
+      <property name="fasta.dataSourceName" value="Travis Parker"/>
+      <property name="fasta.className" value="org.intermine.model.bio.Chromosome"/>
+      <property name="fasta.classAttribute" value="primaryIdentifier"/>
+      <property name="fasta.includes" value="phaco.Painted_Lady.gnm1.genome_main.fna"/>
+      <property name="src.data.dir" location="/falafel/gepts_lab/legumeinfo/Phaseolus/coccineus/genomes/Painted_Lady.gnm1"/>
+    </source>
+
+    <!-- /falafel/shokin/ph-pangenomes/genomes/Painted_Lady/G19833/*.transcript.fasta -->
+    <source name="phaco.Painted_Lady.G19833.transcript.fasta" type="fasta">
+      <property name="fasta.taxonId" value="3886"/>
+      <property name="fasta.strainIdentifier" value="Painted_Lady"/>
+      <property name="fasta.assemblyVersion" value="gnm1"/>
+      <property name="fasta.annotationVersion" value="G19833-liftoff"/>
+      <property name="fasta.dataSetTitle" value="phaco.Painted_Lady.G19833.transcript.fasta"/>
+      <property name="fasta.dataSourceName" value="Travis Parker"/>
+      <property name="fasta.className" value="org.intermine.model.bio.MRNA"/>
+      <property name="fasta.classAttribute" value="primaryIdentifier"/>
+      <property name="fasta.includes" value="Phaseolus.PaintedLady.CHROMOSOMES.fasta.G19833.gnm2.fC0g.transcript.fasta"/>
+      <property name="src.data.dir" location="/falafel/shokin/ph-pangenome/liftoff/Painted_Lady/G19833"/>
+    </source>
+    <!-- /falafel/shokin/ph-pangenomes/genomes/Painted_Lady/G19833/*.protein.fasta -->
+    <source name="phaco.Painted_Lady.G19833.protein.fasta" type="fasta">
+      <property name="fasta.sequenceType" value="protein"/>
+      <property name="fasta.taxonId" value="3886"/>
+      <property name="fasta.strainIdentifier" value="Painted_Lady"/>
+      <property name="fasta.assemblyVersion" value="gnm1"/>
+      <property name="fasta.annotationVersion" value="G19833-liftoff"/>
+      <property name="fasta.dataSetTitle" value="phaco.Painted_Lady.G19833.protein.fasta"/>
+      <property name="fasta.dataSourceName" value="Travis Parker"/>
+      <property name="fasta.className" value="org.intermine.model.bio.Protein"/>
+      <property name="fasta.classAttribute" value="primaryIdentifier"/>
+      <property name="fasta.includes" value="Phaseolus.PaintedLady.CHROMOSOMES.fasta.G19833.gnm2.fC0g.protein.fasta"/>
+      <property name="src.data.dir" location="/falafel/shokin/ph-pangenome/liftoff/Painted_Lady/G19833"/>
+    </source>
+    <!-- /falafel/shokin/ph-pangenomes/genomes/Painted_Lady/G19833/*.cds.fasta -->
+    <source name="phaco.Painted_Lady.G19833.cds.fasta" type="fasta">
+      <property name="fasta.taxonId" value="3886"/>
+      <property name="fasta.strainIdentifier" value="Painted_Lady"/>
+      <property name="fasta.assemblyVersion" value="gnm1"/>
+      <property name="fasta.annotationVersion" value="G19833-liftoff"/>
+      <property name="fasta.dataSetTitle" value="phaco.Painted_Lady.G19833.cds.fasta"/>
+      <property name="fasta.dataSourceName" value="Travis Parker"/>
+      <property name="fasta.className" value="org.intermine.model.bio.CDS"/>
+      <property name="fasta.classAttribute" value="primaryIdentifier"/>
+      <property name="fasta.includes" value="Phaseolus.PaintedLady.CHROMOSOMES.fasta.G19833.gnm2.fC0g.cds.fasta"/>
+      <property name="src.data.dir" location="/falafel/shokin/ph-pangenome/liftoff/Painted_Lady/G19833"/>
+    </source>
+    <!-- /falafel/shokin/ph-pangenomes/genomes/Painted_Lady/G19833/*.gfa.tsv -->
+    <source name="phaco.Painted_Lady.G19833.gfa" type="gfa">
+      <property name="src.data.dir" location="/falafel/shokin/ph-pangenome/liftoff/Painted_Lady/G19833"/>
+    </source>
+    <!-- /falafel/shokin/ph-pangenome/liftoff/Painted_Lady/G19833/*.gff3 -->
+    <source name="phaco.Painted_Lady.G19833.gff3" type="gff">
+      <property name="gff3.taxonId" value="3886"/>
+      <property name="gff3.strainIdentifier" value="Painted_Lady"/>
+      <property name="gff3.assemblyVersion" value="gnm1"/>
+      <property name="gff3.annotationVersion" value="G19833-liftoff"/>
+      <property name="gff3.seqClsName" value="Chromosome"/>
+      <property name="gff3.dataSetTitle" value="phaco.Painted_Lady.G19833.gff3"/>
+      <property name="gff3.licence" value="Private"/>
+      <property name="gff3.dataSourceName" value="Travis Parker"/>
+      <property name="src.data.dir" location="/falafel/shokin/ph-pangenome/liftoff/Painted_Lady/G19833"/>
+    </source>
+
+    <!-- /falafel/shokin/ph-pangenomes/genomes/Painted_Lady/G27455/*.transcript.fasta -->
+    <source name="phaco.Painted_Lady.G27455.transcript.fasta" type="fasta">
+      <property name="fasta.taxonId" value="3886"/>
+      <property name="fasta.strainIdentifier" value="Painted_Lady"/>
+      <property name="fasta.assemblyVersion" value="gnm1"/>
+      <property name="fasta.annotationVersion" value="G27455-liftoff"/>
+      <property name="fasta.dataSetTitle" value="phaco.Painted_Lady.G27455.transcript.fasta"/>
+      <property name="fasta.dataSourceName" value="Travis Parker"/>
+      <property name="fasta.className" value="org.intermine.model.bio.MRNA"/>
+      <property name="fasta.classAttribute" value="primaryIdentifier"/>
+      <property name="fasta.includes" value="Phaseolus.PaintedLady.CHROMOSOMES.fasta.G27455.gnm1.7NXX.transcript.fasta"/>
+      <property name="src.data.dir" location="/falafel/shokin/ph-pangenome/liftoff/Painted_Lady/G27455"/>
+    </source>
+    <!-- /falafel/shokin/ph-pangenomes/genomes/Painted_Lady/G27455/*.protein.fasta -->
+    <source name="phaco.Painted_Lady.G27455.protein.fasta" type="fasta">
+      <property name="fasta.sequenceType" value="protein"/>
+      <property name="fasta.taxonId" value="3886"/>
+      <property name="fasta.strainIdentifier" value="Painted_Lady"/>
+      <property name="fasta.assemblyVersion" value="gnm1"/>
+      <property name="fasta.annotationVersion" value="G27455-liftoff"/>
+      <property name="fasta.dataSetTitle" value="phaco.Painted_Lady.G27455.protein.fasta"/>
+      <property name="fasta.dataSourceName" value="Travis Parker"/>
+      <property name="fasta.className" value="org.intermine.model.bio.Protein"/>
+      <property name="fasta.classAttribute" value="primaryIdentifier"/>
+      <property name="fasta.includes" value="Phaseolus.PaintedLady.CHROMOSOMES.fasta.G27455.gnm1.7NXX.protein.fasta"/>
+      <property name="src.data.dir" location="/falafel/shokin/ph-pangenome/liftoff/Painted_Lady/G27455"/>
+    </source>
+    <!-- /falafel/shokin/ph-pangenomes/genomes/Painted_Lady/G27455/*.cds.fasta -->
+    <source name="phaco.Painted_Lady.G27455.cds.fasta" type="fasta">
+      <property name="fasta.taxonId" value="3886"/>
+      <property name="fasta.strainIdentifier" value="Painted_Lady"/>
+      <property name="fasta.assemblyVersion" value="gnm1"/>
+      <property name="fasta.annotationVersion" value="G27455-liftoff"/>
+      <property name="fasta.dataSetTitle" value="phaco.Painted_Lady.G27455.cds.fasta"/>
+      <property name="fasta.dataSourceName" value="Travis Parker"/>
+      <property name="fasta.className" value="org.intermine.model.bio.CDS"/>
+      <property name="fasta.classAttribute" value="primaryIdentifier"/>
+      <property name="fasta.includes" value="Phaseolus.PaintedLady.CHROMOSOMES.fasta.G27455.gnm1.7NXX.cds.fasta"/>
+      <property name="src.data.dir" location="/falafel/shokin/ph-pangenome/liftoff/Painted_Lady/G27455"/>
+    </source>
+    <!-- /falafel/shokin/ph-pangenomes/genomes/Painted_Lady/G27455/*.gfa.tsv -->
+    <source name="phaco.Painted_Lady.G27455.gfa" type="gfa">
+      <property name="src.data.dir" location="/falafel/shokin/ph-pangenome/liftoff/Painted_Lady/G27455"/>
+    </source>
+    <!-- /falafel/shokin/ph-pangenomes/genomes/Painted_Lady/G27455/*.gff3 -->
+    <source name="phaco.Painted_Lady.G27455.gff3" type="gff">
+      <property name="gff3.taxonId" value="3886"/>
+      <property name="gff3.strainIdentifier" value="Painted_Lady"/>
+      <property name="gff3.assemblyVersion" value="gnm1"/>
+      <property name="gff3.annotationVersion" value="G27455-liftoff"/>
+      <property name="gff3.seqClsName" value="Chromosome"/>
+      <property name="gff3.dataSetTitle" value="phaco.Painted_Lady.G27455.gff3"/>
+      <property name="gff3.licence" value="Private"/>
+      <property name="gff3.dataSourceName" value="Travis Parker"/>
+      <property name="src.data.dir" location="/falafel/shokin/ph-pangenome/liftoff/Painted_Lady/G27455"/>
+    </source>
+
+    <!-- /falafel/shokin/ph-pangenomes/genomes/Painted_Lady/UI111/*.transcript.fasta -->
+    <source name="phaco.Painted_Lady.UI111.transcript.fasta" type="fasta">
+      <property name="fasta.taxonId" value="3886"/>
+      <property name="fasta.strainIdentifier" value="Painted_Lady"/>
+      <property name="fasta.assemblyVersion" value="gnm1"/>
+      <property name="fasta.annotationVersion" value="UI111-liftoff"/>
+      <property name="fasta.dataSetTitle" value="phaco.Painted_Lady.UI111.transcript.fasta"/>
+      <property name="fasta.dataSourceName" value="Travis Parker"/>
+      <property name="fasta.className" value="org.intermine.model.bio.MRNA"/>
+      <property name="fasta.classAttribute" value="primaryIdentifier"/>
+      <property name="fasta.includes" value="Phaseolus.PaintedLady.CHROMOSOMES.fasta.UI111.gnm1.3VTM.transcript.fasta"/>
+      <property name="src.data.dir" location="/falafel/shokin/ph-pangenome/liftoff/Painted_Lady/UI111"/>
+    </source>
+    <!-- /falafel/shokin/ph-pangenomes/genomes/Painted_Lady/UI111/*.protein.fasta -->
+    <source name="phaco.Painted_Lady.UI111.protein.fasta" type="fasta">
+      <property name="fasta.sequenceType" value="protein"/>
+      <property name="fasta.taxonId" value="3886"/>
+      <property name="fasta.strainIdentifier" value="Painted_Lady"/>
+      <property name="fasta.assemblyVersion" value="gnm1"/>
+      <property name="fasta.annotationVersion" value="UI111-liftoff"/>
+      <property name="fasta.dataSetTitle" value="phaco.Painted_Lady.UI111.protein.fasta"/>
+      <property name="fasta.dataSourceName" value="Travis Parker"/>
+      <property name="fasta.className" value="org.intermine.model.bio.Protein"/>
+      <property name="fasta.classAttribute" value="primaryIdentifier"/>
+      <property name="fasta.includes" value="Phaseolus.PaintedLady.CHROMOSOMES.fasta.UI111.gnm1.3VTM.protein.fasta"/>
+      <property name="src.data.dir" location="/falafel/shokin/ph-pangenome/liftoff/Painted_Lady/UI111"/>
+    </source>
+    <!-- /falafel/shokin/ph-pangenomes/genomes/Painted_Lady/UI111/*.cds.fasta -->
+    <source name="phaco.Painted_Lady.UI111.cds.fasta" type="fasta">
+      <property name="fasta.taxonId" value="3886"/>
+      <property name="fasta.strainIdentifier" value="Painted_Lady"/>
+      <property name="fasta.assemblyVersion" value="gnm1"/>
+      <property name="fasta.annotationVersion" value="UI111-liftoff"/>
+      <property name="fasta.dataSetTitle" value="phaco.Painted_Lady.UI111.cds.fasta"/>
+      <property name="fasta.dataSourceName" value="Travis Parker"/>
+      <property name="fasta.className" value="org.intermine.model.bio.CDS"/>
+      <property name="fasta.classAttribute" value="primaryIdentifier"/>
+      <property name="fasta.includes" value="Phaseolus.PaintedLady.CHROMOSOMES.fasta.UI111.gnm1.3VTM.cds.fasta"/>
+      <property name="src.data.dir" location="/falafel/shokin/ph-pangenome/liftoff/Painted_Lady/UI111"/>
+    </source>
+    <!-- /falafel/shokin/ph-pangenomes/genomes/Painted_Lady/UI111/*.gfa.tsv -->
+    <source name="phaco.Painted_Lady.UI111.gfa" type="gfa">
+      <property name="src.data.dir" location="/falafel/shokin/ph-pangenome/liftoff/Painted_Lady/UI111"/>
+    </source>
+    <!-- /falafel/shokin/ph-pangenomes/genomes/Painted_Lady/UI111/*.gff3 -->
+    <source name="phaco.Painted_Lady.UI111.gff3" type="gff">
+      <property name="gff3.taxonId" value="3886"/>
+      <property name="gff3.strainIdentifier" value="Painted_Lady"/>
+      <property name="gff3.assemblyVersion" value="gnm1"/>
+      <property name="gff3.annotationVersion" value="UI111-liftoff"/>
+      <property name="gff3.seqClsName" value="Chromosome"/>
+      <property name="gff3.dataSetTitle" value="phaco.Painted_Lady.UI111.gff3"/>
+      <property name="gff3.licence" value="Private"/>
+      <property name="gff3.dataSourceName" value="Travis Parker"/>
+      <property name="src.data.dir" location="/falafel/shokin/ph-pangenome/liftoff/Painted_Lady/UI111"/>
+    </source>
+    
+  </sources>
+
+</project>
