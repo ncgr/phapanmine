@@ -1,7 +1,7 @@
 #!/bin/sh
 
 MINENAME=phapanmine
-DBNAME=phapanmine
+DBNAME=$1
 
 ## add triggers
 ./gradlew generateUpdateTriggers
